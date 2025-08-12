@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['glove', 'impression', 'mask']
+
+roboflow:
+  workspace: ysl-lh7kb
+  project: my-first-project-f1pq8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ysl-lh7kb/my-first-project-f1pq8/dataset/1
